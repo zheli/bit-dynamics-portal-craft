@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 
 export const Hero = () => {
@@ -15,7 +14,7 @@ export const Hero = () => {
                 Building Tomorrow's Software, Today.
             </h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80 mb-8">
-                From complex application services to cutting-edge blockchain solutions, Bit Dynamics AB delivers robust, scalable, and secure software tailored to your needs.
+                From complex application services to cutting-edge blockchain solutions, Bit Dynamics delivers robust, scalable, and secure software tailored to your needs.
             </p>
             <div className="space-x-4">
                 <Button size="lg" asChild>
