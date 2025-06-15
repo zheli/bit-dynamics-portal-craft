@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <CodeXml className="h-6 w-6 mr-2 text-primary" />
-          <a href="/" className="font-bold text-lg">Bit Dynamics</a>
+          <a href="/" className="font-bold text-lg">Bit Dynamics AB</a>
         </div>
         <nav className="flex items-center gap-6 text-sm flex-1">
           <a href="#services" className="transition-colors hover:text-foreground/80 text-foreground/60">Services</a>
