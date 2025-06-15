@@ -17,7 +17,7 @@ export const Header = () => {
         <div className="flex flex-1 items-center justify-end">
             <div className="hidden md:flex">
                 <Button asChild>
-                    <a href="mailto:contact@bitdynamics.se">Get in Touch</a>
+                    <a href="mailto:hi@bitdynamics.me">Get in Touch</a>
                 </Button>
             </div>
             <div className="md:hidden">
@@ -36,7 +36,7 @@ export const Header = () => {
                             </a>
                             <nav className="flex flex-col gap-6 text-lg">
                                 <Button asChild className="mt-4">
-                                    <a href="mailto:contact@bitdynamics.se">Get in Touch</a>
+                                    <a href="mailto:hi@bitdynamics.me">Get in Touch</a>
                                 </Button>
                             </nav>
                         </div>

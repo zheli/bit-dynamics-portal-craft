@@ -19,7 +19,7 @@ export const Hero = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                    <a href="mailto:contact@bitdynamics.se">Contact Us</a>
+                    <a href="mailto:hi@bitdynamics.me">Contact Us</a>
                 </Button>
             </div>
         </div>

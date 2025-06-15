@@ -11,7 +11,7 @@ export const Footer = () => {
                     <p className="text-sm text-muted-foreground">&copy; {currentYear} Bit Dynamics AB. All rights reserved.</p>
                 </div>
                 <div className="text-sm text-muted-foreground">
-                    <a href="mailto:contact@bitdynamics.se" className="hover:text-primary">contact@bitdynamics.se</a>
+                    <a href="mailto:hi@bitdynamics.me" className="hover:text-primary">hi@bitdynamics.me</a>
                 </div>
             </div>
         </footer>
