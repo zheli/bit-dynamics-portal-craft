@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 
 export const Hero = () => {
@@ -16,7 +17,7 @@ export const Hero = () => {
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80 mb-8">
                 From complex application services to cutting-edge blockchain solutions, Bit Dynamics delivers robust, scalable, and secure software tailored to your needs.
             </p>
-            <div className="space-x-4">
+            <div className="flex flex-col md:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
                     <a href="#services">Our Services</a>
                 </Button>

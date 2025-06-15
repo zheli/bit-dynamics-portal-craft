@@ -9,12 +9,12 @@ export const Clients = () => {
             We are proud to have partnered with innovative companies.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24">
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
           <div className="grayscale hover:grayscale-0 transition-all">
-            <span className="text-3xl font-bold tracking-tight text-foreground">Minna Technology</span>
+            <span className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Minna Technology</span>
           </div>
           <div className="grayscale hover:grayscale-0 transition-all">
-            <span className="text-3xl font-bold tracking-tight text-foreground">Gateway.FM</span>
+            <span className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Gateway.FM</span>
           </div>
         </div>
       </div>
