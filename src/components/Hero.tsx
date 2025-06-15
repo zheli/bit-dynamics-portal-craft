@@ -19,9 +19,6 @@ export const Hero = () => {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                    <a href="#services">Our Services</a>
-                </Button>
-                <Button size="lg" variant="outline" className="bg-transparent border-primary text-primary hover:bg-primary hover:text-primary-foreground" asChild>
                     <a href="mailto:contact@bitdynamics.se">Contact Us</a>
                 </Button>
             </div>

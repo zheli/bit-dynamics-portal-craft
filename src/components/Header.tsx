@@ -14,10 +14,6 @@ export const Header = () => {
           <CodeXml className="h-6 w-6 mr-2 text-primary" />
           <a href="/" className="font-bold text-lg">Bit Dynamics</a>
         </div>
-        <nav className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#services" className="transition-colors hover:text-foreground/80 text-foreground/60">Services</a>
-          <a href="#clients" className="transition-colors hover:text-foreground/80 text-foreground/60">Clients</a>
-        </nav>
         <div className="flex flex-1 items-center justify-end">
             <div className="hidden md:flex">
                 <Button asChild>
@@ -39,8 +35,6 @@ export const Header = () => {
                                 Bit Dynamics
                             </a>
                             <nav className="flex flex-col gap-6 text-lg">
-                                <a href="#services" onClick={() => setIsMenuOpen(false)} className="transition-colors hover:text-foreground/80 text-foreground/60">Services</a>
-                                <a href="#clients" onClick={() => setIsMenuOpen(false)} className="transition-colors hover:text-foreground/80 text-foreground/60">Clients</a>
                                 <Button asChild className="mt-4">
                                     <a href="mailto:contact@bitdynamics.se">Get in Touch</a>
                                 </Button>
