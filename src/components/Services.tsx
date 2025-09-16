@@ -5,7 +5,7 @@ import { Server, Share2, Network } from "lucide-react";
 const services = [
   {
     icon: <Server className="h-10 w-10 text-primary mb-4" />,
-    title: "Application Service Development",
+    title: "Web Service Development",
     description: "We build scalable, high-performance web and mobile applications tailored to your business requirements.",
   },
   {
